@@ -1,32 +1,13 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import FrontPage from './Pages/FrontPage';
 
-class App extends Component {
-  render() {
+function App() { 
     return (
       <div className="App">
-        <Header />
-        <Main />
+        <FrontPage />
       </div>
     );
-  }
-}
-
-function Header() {
-  return (
-    <header className="App-header">
-      <h1>{document.title}</h1>
-    </header>
-  );
-}
-
-function Main() {
-  return (
-    <main className="App-main">
-      <img src={logo} className="App-logo" alt="logo" />
-    </main>
-  );
 }
 
 export default App;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FrontPage renders correctly 1`] = `
+<div
+  id="FrontPage"
+>
+  <header>
+    <h1>
+      What's the magic word?
+    </h1>
+  </header>
+  <main>
+    <form>
+      <textarea
+        onChange={[Function]}
+        value=""
+      />
+      <button
+        onClick={[Function]}
+      >
+        Submit!
+      </button>
+    </form>
+    <img
+      src="logo.svg"
+    />
+  </main>
+</div>
+`;
