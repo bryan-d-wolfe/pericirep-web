@@ -5,14 +5,14 @@ function Form () {
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setText('Wrong Word!');
-  } 
+  }
   function onChange(e: ChangeEvent<HTMLTextAreaElement>) {
     e.preventDefault();
     setText(e.currentTarget.value);
   }
   return (
     <form>
-      <textarea 
+      <textarea
         onChange={(e: ChangeEvent<HTMLTextAreaElement>) => onChange(e)}
         value={text}
       />
