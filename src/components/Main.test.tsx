@@ -5,5 +5,5 @@ import logo from '../logo.svg';
 
 it (
   'Main works!',
-  () => truthyTest(<Main imgSrc={logo} />)
+  () => truthyTest(<Main title={'Test'} imgSrc={logo} />)
 );

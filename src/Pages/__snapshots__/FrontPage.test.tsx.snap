@@ -4,12 +4,10 @@ exports[`FrontPage renders correctly 1`] = `
 <div
   id="FrontPage"
 >
-  <header>
+  <main>
     <h1>
       What's the magic word?
     </h1>
-  </header>
-  <main>
     <form>
       <textarea
         onChange={[Function]}
