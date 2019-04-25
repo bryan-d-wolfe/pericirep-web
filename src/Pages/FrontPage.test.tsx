@@ -3,6 +3,6 @@ import FrontPage from './FrontPage';
 import snapshotTest from '../Tests/snapshotTest';
 
 test(
-  'FrontPage renders correctly', 
+  'FrontPage renders correctly',
   () => snapshotTest(<FrontPage />)
 );

@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Form from './Form';
-import truthyTest from '../Tests/truthyTest';
+import truthyTest from '../../Tests/truthyTest';
 
 it (
-  'Form works!',
+  'Form is truthy!',
   () => truthyTest(<Form />)
 );

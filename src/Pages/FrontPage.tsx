@@ -1,6 +1,6 @@
 import React from 'react';
 import './FrontPage.css';
-import Main from '../components/Main';
+import Main from '../components/Main/Main';
 import logo from '../logo.svg';
 
 function FrontPage () {

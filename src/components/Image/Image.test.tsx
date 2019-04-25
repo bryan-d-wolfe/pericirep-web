@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from './Image';
 import logo from '../logo.svg';
-import truthyTest from '../Tests/truthyTest';
+import truthyTest from '../../Tests/truthyTest';
 
 it (
-  'Image works!',
+  'Image is truthy!',
   () => truthyTest(<Image src={logo} />)
 );
