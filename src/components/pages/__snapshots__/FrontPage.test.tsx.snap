@@ -20,7 +20,7 @@ exports[`FrontPage renders correctly 1`] = `
       </button>
     </form>
     <img
-      src="logo.svg"
+      src="joker.svg"
     />
   </main>
 </div>

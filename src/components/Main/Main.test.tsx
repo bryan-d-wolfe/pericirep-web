@@ -1,9 +1,8 @@
 import React from 'react';
 import Main from './Main';
-import truthyTest from '../../Tests/truthyTest';
-import logo from '../logo.svg';
+import truthyTest from '../../tests/truthyTest';
 
 it (
   'Main is truthy!',
-  () => truthyTest(<Main title={'Test'} imgSrc={logo} />)
+  () => truthyTest(<Main title={'Test'} />)
 );

@@ -4,8 +4,6 @@ export interface ImageProps {
     src: string;
 }
 
-function Image(props: ImageProps) {
+export function Image(props: ImageProps) {
   return <img src={props.src} />;
 }
-
-export default Image;

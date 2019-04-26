@@ -1,13 +1,12 @@
 import React from 'react';
 import './FrontPage.css';
-import Main from '../components/Main/Main';
-import logo from '../logo.svg';
+import Main from '../Main/Main';
 
 function FrontPage () {
   const text: string = "What's the magic word?"; 
   return (
     <div id='FrontPage'>
-      <Main title={text} imgSrc={logo} />
+      <Main title={text} />
     </div>
   );
 }

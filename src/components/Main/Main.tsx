@@ -1,18 +1,17 @@
 import React from 'react';
 import Form from '../Form/Form';
-import Image from '../Image/Image';
+import JokerImage from '../Image/Joker/Joker';
 
 export interface MainProps {
   title: string;
-  imgSrc: string;
 }
 
 function Main(props: MainProps) {
   return (
-    <main> 
+    <main>
       <h1>{props.title}</h1>
       <Form />
-      <Image src={props.imgSrc} /> 
+      <JokerImage />
     </main>
   );
 }

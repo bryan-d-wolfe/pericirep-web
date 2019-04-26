@@ -1,6 +1,6 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
 
-function Form () {
+export function Form () {
   const [text, setText] = useState('');
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
@@ -20,5 +20,3 @@ function Form () {
     </form>
   );
 }
-
-export default Form;
