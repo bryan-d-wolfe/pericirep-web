@@ -1,6 +1,7 @@
 import React from 'react';
 import './FrontPage.css';
-import Main from '../Main/Main';
+import './FrontPage'
+import Main from '../../Main/Main';
 
 function FrontPage () {
   const text: string = "What's the magic word?"; 

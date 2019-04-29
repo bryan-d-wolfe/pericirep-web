@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from '../Form/Form';
+import { Form } from '../Form/Form';
 import JokerImage from '../Image/Joker/Joker';
 
 export interface MainProps {
