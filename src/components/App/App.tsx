@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.css';
-import FrontPage from '../Page/FrontPage/FrontPage';
+import React from "react";
+import FrontPage from "../Page/FrontPage/FrontPage";
+import "./App.css";
 
-function App() { 
+function App() {
     return (
       <div className="App">
         <FrontPage />
