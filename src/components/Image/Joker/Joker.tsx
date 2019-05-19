@@ -1,6 +1,6 @@
-import React from 'react';
-import joker from './joker.svg';
-import { Image } from '../Image';
+import React from "react";
+import { Image } from "../Image";
+import joker from "./joker.svg";
 
 function JokerImage() {
   return <Image src={joker} />;

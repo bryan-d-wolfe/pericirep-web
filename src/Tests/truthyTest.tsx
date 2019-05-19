@@ -1,4 +1,4 @@
-import { shallow } from 'enzyme';
+import { shallow } from "enzyme";
 
 function truthyTest(main: JSX.Element) {
   const wrapper = shallow(main);

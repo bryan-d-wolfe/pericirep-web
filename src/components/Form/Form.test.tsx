@@ -1,8 +1,8 @@
-import React from 'react';
-import { Form } from './Form';
-import truthyTest from '../../tests/truthyTest';
+import React from "react";
+import truthyTest from "../../tests/truthyTest";
+import { Form } from "./Form";
 
 it (
-  'Form is truthy!',
-  () => truthyTest(<Form />)
+  "Form is truthy!",
+  () => truthyTest(<Form />),
 );

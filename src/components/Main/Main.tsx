@@ -1,6 +1,6 @@
-import React from 'react';
-import { Form } from '../Form/Form';
-import JokerImage from '../Image/Joker/Joker';
+import React from "react";
+import { Form } from "../Form/Form";
+import JokerImage from "../Image/Joker/Joker";
 
 export interface MainProps {
   title: string;

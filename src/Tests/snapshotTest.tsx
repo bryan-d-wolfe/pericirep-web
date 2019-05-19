@@ -1,4 +1,4 @@
-import renderer from 'react-test-renderer';
+import renderer from "react-test-renderer";
 
 function snapshotTest(element: JSX.Element) {
   const tree = renderer.create(element).toJSON();

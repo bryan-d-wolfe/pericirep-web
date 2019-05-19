@@ -1,10 +1,10 @@
-import React, { useState, FormEvent, ChangeEvent } from 'react';
+import React, { ChangeEvent, FormEvent, useState } from "react";
 
-export function Form () {
-  const [text, setText] = useState('');
+export function Form() {
+  const [text, setText] = useState("");
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    setText('Wrong Word!');
+    setText("Wrong Word!");
   }
   function onChange(e: ChangeEvent<HTMLTextAreaElement>) {
     e.preventDefault();

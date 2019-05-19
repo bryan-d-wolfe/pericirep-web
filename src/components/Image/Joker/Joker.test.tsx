@@ -1,9 +1,9 @@
-import React from 'react';
-import { Image } from '../Image';
-import joker from './joker.svg';
-import truthyTest from '../../../tests/truthyTest';
+import React from "react";
+import truthyTest from "../../../tests/truthyTest";
+import { Image } from "../Image";
+import joker from "./joker.svg";
 
 it (
-  'Image is truthy!',
-  () => truthyTest(<Image src={joker} />)
+  "Image is truthy!",
+  () => truthyTest(<Image src={joker} />),
 );

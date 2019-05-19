@@ -1,4 +1,4 @@
-import { shallow } from 'enzyme';
+import { shallow } from "enzyme";
 
 function containerTest(container: JSX.Element, element: JSX.Element) {
   const wrapper = shallow(container);
