@@ -4,13 +4,19 @@ import JokerImage from "../Image/Joker/Joker";
 
 export interface MainProps {
   title: string;
+  condition: (text: string) => boolean;
 }
 
 function Main(props: MainProps) {
+  function formCallback(text: string) {
+    alert(
+      props.condition(text) ? text : "Wrong!",
+    );
+  }
   return (
     <main>
       <h1>{props.title}</h1>
-      <Form />
+      <Form text={props.title} callback={formCallback} />
       <JokerImage />
     </main>
   );

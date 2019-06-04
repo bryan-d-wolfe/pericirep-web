@@ -3,11 +3,15 @@ import Main from "../../Main/Main";
 import "./FrontPage";
 import "./FrontPage.css";
 
+function condition(text: string) {
+  return text === "PeRiCiReP";
+}
+
 function FrontPage() {
-  const text: string = "What's the magic word?";
+  const title: string = "What's the magic word?";
   return (
     <div id="FrontPage">
-      <Main title={text} />
+      <Main title={title} condition={condition} />
     </div>
   );
 }

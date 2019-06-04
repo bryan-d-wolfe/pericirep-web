@@ -1,10 +1,15 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
 
-export function Form() {
-  const [text, setText] = useState("");
-  function handleSubmit(e: FormEvent) {
+export interface FormProps {
+  text: string;
+  callback: (word: string) => void;
+}
+
+export function Form(props: FormProps) {
+  const [text, setText] = useState(props.text);
+  function onClick(e: FormEvent<HTMLButtonElement>) {
     e.preventDefault();
-    setText("Wrong Word!");
+    props.callback(text);
   }
   function onChange(e: ChangeEvent<HTMLTextAreaElement>) {
     e.preventDefault();
@@ -16,7 +21,7 @@ export function Form() {
         onChange={(e: ChangeEvent<HTMLTextAreaElement>) => onChange(e)}
         value={text}
       />
-      <button onClick={(e: FormEvent) => handleSubmit(e)}>Submit!</button>
+      <button onClick={(e: FormEvent<HTMLButtonElement>) => onClick(e)}>Submit!</button>
     </form>
   );
 }

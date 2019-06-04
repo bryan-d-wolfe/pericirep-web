@@ -11,7 +11,7 @@ exports[`FrontPage renders correctly 1`] = `
     <form>
       <textarea
         onChange={[Function]}
-        value=""
+        value="What's the magic word?"
       />
       <button
         onClick={[Function]}
